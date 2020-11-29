@@ -73,7 +73,7 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-  background-color: #2f80ed ;
+  background-color: #2f80ed;
   position: absolute;
   top: 64px;
   right: 0;
@@ -106,7 +106,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-  color:  #2f80ed ;
+  color:  #2f80ed;
 }
 
 .description_two-columns_main-text{
@@ -286,7 +286,7 @@
 
 .footer{
   background-color:  #1f1f1f;
-  paddin-top: 60px;
+  padding-top: 60px;
 }
 
 .footer__columns{
