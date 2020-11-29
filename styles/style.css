@@ -286,7 +286,7 @@
 
 .footer{
   background-color:  #1f1f1f;
-  paddint-top: 60px;
+  padding-top: 60px;
 }
 
 .footer__columns{
@@ -322,7 +322,7 @@
 }
 
 .footer__column-links{
-  margin-bottom: 16px;
+  margin: 0 0 16px;
   list-style-type: none;
 
 }
