@@ -73,7 +73,7 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-  background-color: #2f80ed;
+  background-color: #2f80ed ;
   position: absolute;
   top: 64px;
   right: 0;
@@ -106,7 +106,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
-  color:  #2f80ed;
+  color:  #2f80ed ;
 }
 
 .description_two-columns_main-text{
@@ -223,7 +223,7 @@
   height: 637px;
 }
 
-.kaufman{
+.kaufman {
   position: relative;
   display: flex;
   align-items: center;
@@ -286,13 +286,14 @@
 
 .footer{
   background-color:  #1f1f1f;
-  padding-top: 60px;
+  paddin-top: 60px;
 }
 
 .footer__columns{
   display: flex;
   margin: 0 auto 40px;
   flex-direction: row;
+  justify-content: space-between;
   width: 90%;
 }
 
@@ -315,14 +316,14 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.footer__column-links{
-  margin: 0 0 16px;
+.footer__column-links {
+  margin-bottom: 0 0 16px;
   list-style-type: none;
 
 }
