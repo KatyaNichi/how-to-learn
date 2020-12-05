@@ -39,7 +39,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 2;
 }
 
 .header__subtitle {
@@ -59,6 +58,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: -1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -69,7 +69,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: -1;
+  z-index: -2;
 }
 .header__link {
   padding-left: 10px;
@@ -96,7 +96,7 @@
   justify-content: space-between;
 }
 
-.two-columns_brief {
+.two-columns__brief {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -105,12 +105,12 @@
   color:  #2f80ed;
 }
 
-.two-columns_main-text{
+.two-columns__main-text{
   width: 80%;
   min-width: 784px;
 }
 
-.two-columns_paragraph{
+.two-columns__paragraph{
   padding: 0;
   margin-bottom: 30px;
   margin-top: 0;
@@ -119,11 +119,11 @@
   font-weight: normal;
 }
 
-.two-columns_paragraph:last-of-type {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
-.two-columns_span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -162,6 +162,7 @@
   justify-content: space-between;
   margin: 0 auto 100px;
   list-style: none;
+  padding-left: 0;
 }
 
 .table__cell {
@@ -180,6 +181,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 .feynman {
@@ -246,11 +248,12 @@
   padding-top: 90px;
 }
 
-.kaufman__section-title_theme_dark {
+.section-title_theme_dark {
   color: #fff;
+  margin-top: 0;
 }
 
-.kaufman__section-subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: #fff;
 }
 
@@ -282,7 +285,7 @@
   background-size: contain;
   position: absolute;
   right: -210px;
-  bottom: -150px;
+  top: 0;
   width: 877px;
   height: 877px;
   z-index: -1;
@@ -294,6 +297,7 @@
   color: #fff;
   min-height: 350px;
   box-sizing: border-box;
+  padding-bottom: 40px;
 }
 
 .footer__columns {
@@ -301,7 +305,6 @@
   margin: 0 auto;
   flex-direction: row;
   width: 90%;
-  padding-bottom: 40px;
   justify-content: space-between;
 }
 
@@ -329,6 +332,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  margin-top: 0;
 }
 
 .footer__column-links{
